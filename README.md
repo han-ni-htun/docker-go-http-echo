@@ -5,9 +5,11 @@ sudo su
 curl -sL https://go.dev/dl/go1.26.1.linux-amd64.tar.gz -o go1.26.1.linux-amd64.tar.gzs
 ```
 # Working directory `/home/sai/pov-consul-2026/go-learn`
-
+```
 git clone https://github.com/hashicorp/http-echo.git
 cd http-echo
+
+```
 
 # Build
 ```
@@ -41,5 +43,5 @@ docker push ${IMAGE_NAME}:${IMAGE_TAG}
 
 # Verify in DockerHub
 ```
-https://hub.docker.com/repository/docker/hellocloud/http-echo/tags
+https://hub.docker.com/repository/docker/hellocloud/http-echo-server/general
 ```
