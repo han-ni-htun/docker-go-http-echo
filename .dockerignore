@@ -1,0 +1,14 @@
+# Exclude Git metadata from the Docker build context.
+.git
+.gitignore
+
+# Exclude project documentation and editor-specific files.
+README.md
+.vscode/
+.DS_Store
+
+# Exclude temporary files and local environment configuration.
+*.log
+*.tmp
+.env
+.env.*
